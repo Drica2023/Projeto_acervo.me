@@ -1,6 +1,8 @@
 # Projeto_acervo.me
 Projeto Pessoal: acervo.me
 
+### Projeto API REST local usando base de Dados MySql, Spring Boot 3, Java 17 
+
 #### Diagrama de Classe do acervo.me
 ```mermaid
 classDiagram
