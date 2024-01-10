@@ -1,12 +1,7 @@
 {
   "titulo": "Amor de perdição",
-  "autor": {
-    "nome":"camilo Castelo Branco"
-  },
-  "Editora":{
-    "nome": "Editora Moderna",
-    "anoPublicacao": 1994
-    
-  },
+  "autor": "camilo Castelo Branco",
+  "Editora": "Editora Moderna",
+  "anoPublicacao": 1994,
   "idioma": "Portugues"
 }
