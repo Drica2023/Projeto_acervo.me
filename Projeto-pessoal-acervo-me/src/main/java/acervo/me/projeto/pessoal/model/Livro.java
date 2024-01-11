@@ -70,4 +70,11 @@ public class Livro implements Serializable {
     public void setIdioma(Idioma idioma) {
         this.idioma = idioma;
     }
+
+    @Override
+    public String toString() {
+        return "  {" +
+                "titulo = " + titulo +
+                '}';
+    }
 }

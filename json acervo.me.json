@@ -1,7 +1,26 @@
-{
-  "titulo": "Amor de perdição",
-  "autor": "camilo Castelo Branco",
-  "Editora": "Editora Moderna",
-  "anoPublicacao": 1994,
-  "idioma": "Portugues"
-}
+[
+  {
+      "id": "3c21a4c9-c57d-4a5e-b750-db54bc03ff83",
+      "titulo": "O livro dos Mediuns",
+      "autor": "Allan Kardec",
+      "editora": "FEB",
+      "anoPublicacao": "2016",
+      "idioma": "PORTUGUES"
+  },
+  {
+      "id": "a38eac0a-001d-4c08-b6e4-c04911f0b323",
+      "titulo": "Amor de perdição",
+      "autor": "camilo Castelo Branco",
+      "editora": "Editora Moderna",
+      "anoPublicacao": "1994",
+      "idioma": "PORTUGUES"
+  },
+  {
+      "id": "f8f2b8c2-fc3f-4918-926e-f9e3435dc883",
+      "titulo": "Amor de perdição",
+      "autor": "camilo Castelo Branco",
+      "editora": "Editora Moderna",
+      "anoPublicacao": "1994",
+      "idioma": "PORTUGUES"
+  }
+]
