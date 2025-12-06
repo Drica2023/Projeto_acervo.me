@@ -6,22 +6,32 @@ Projeto Pessoal: acervo.me
 #### Diagrama de Classe do acervo.me
 ```mermaid
 classDiagram
-  class Livro {
-    +titulo: String
-    +autor: Autor
-    +editora: Editora
-    +idioma: String
-  }
+    class Livro {
+        +titulo: String
+        +idioma: String
+        --
+        +getTitulo(): String
+        +getIdioma(): String
+        +getAutor(): Autor
+        +getEditora(): Editora
+    }
 
-  class Autor {
-    +nome: String
-  }
+    class Autor {
+        +nome: String
+        --
+        +getNome(): String
+        +listarLivros(): List<Livro>
+    }
 
-  class Editora {
-    +nome: String
-    +anoPublicacao: Int
-  }
+    class Editora {
+        +nome: String
+        +anoPublicacao: Int
+        --
+        +getNome(): String
+        +getAnoPublicacao(): Int
+    }
 
-  Livro --> Autor
-  Livro --> Editora
+    %% Multiplicidades e relacionamentos
+    Autor "1" --> "0..*" Livro : escreve >
+    Livro "1" --> "1" Editora : publicado por >
 ```
